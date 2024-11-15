@@ -49,7 +49,7 @@ export default function Textarea({theme, settheme}) {
                     <img onClick={TextSpeaker} className='w-8 h-8' src="speaker.png" alt="speaker" />
                 </div>
             </div>
-            <p>  Your Text contains {Character.length} Characters, {Character.split(" ").length - 1} Words and {Character.split(".").length - 1} Sentences</p>
+            <p>  Your Text contains {Character.length} Characters, {Character.split(" ").length - 1} Words and {Character.split(".").length - 1} Sentence</p>
 
             {/* <div class="relative w-full min-w-[200px]">
     <textarea rows="8"
