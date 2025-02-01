@@ -9,10 +9,6 @@ export default function Navbar({theme,settheme}) {
 
     }
     
-
-
-  
-
     const ToggleTheme = () => {
         settheme(theme === 'light' ? 'dark' : 'light');
     }
