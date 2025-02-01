@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "watch":"npx tailwindcss -i index.css -o output.css --watch"
+    "watch": "npx tailwindcss -i index.css -o output.css --watch"
   },
   "dependencies": {
     "react": "^18.3.1",
